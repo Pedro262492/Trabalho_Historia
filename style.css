@@ -1,0 +1,295 @@
+body{
+   background: linear-gradient(to top right,black, black, black,black, rgb(20, 0, 0), red, blue, yellow);
+height: 100vh;
+overflow-x: hidden;
+  background-attachment: fixed;
+}
+
+#nome{
+    z-index: 10;
+    position: relative;
+    bottom: 830px;
+    left: 50px;
+cursor: pointer;
+    width: 40px;
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    animation-name: flutuando;
+    animation-duration: 5s;
+animation-iteration-count: infinite;
+transition: 2s;
+}
+
+
+
+
+h2{
+    z-index: 20;
+    color: white;
+    position: relative;
+    left: 800px;
+    bottom: 410px;
+    font-size: 30px;
+}
+
+#nome:hover{
+    color: yellow;
+}
+
+#subti{
+    z-index: 11;
+    position: relative;
+    top: 170px;
+    left: 160px;
+cursor: pointer;
+    font-weight: 600;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    animation-name: flutuando;
+    animation-duration: 5s;
+animation-iteration-count: infinite;
+
+}
+
+.trajei{
+    z-index: 10;
+    width: 440px;
+    height: 440px;
+    margin-top: 280px;
+    
+}
+
+#trajet{
+    color: white;
+    font-size: 30px;
+    z-index: 12;
+    width: 720px;
+    position: relative;
+    left: 550px;
+    bottom: 380px;
+    text-align: center;
+}
+
+.bandi{
+    z-index: 14;
+    width: 500px;
+    height: 440px;
+    margin-top: 150px;
+    
+}
+
+#bandt{
+    color: white;
+    font-size: 30px;
+    z-index: 13;
+    width: 720px;
+    position: relative;
+    left: 550px;
+    bottom: 380px;
+    text-align: center;
+}
+
+.comi{
+    z-index: 10;
+    width: 440px;
+    height: 440px;
+    margin-top: 280px;
+    
+}
+
+#comit{
+    color: white;
+    font-size: 30px;
+    z-index: 12;
+    width: 720px;
+    position: relative;
+    left: 550px;
+    bottom: 380px;
+    text-align: center;
+}
+
+.mapi{
+    z-index: 10;
+    width: 440px;
+    height: 440px;
+    margin-top: 280px;
+    
+}
+
+#mapt{
+    color: white;
+    font-size: 30px;
+    z-index: 12;
+    width: 720px;
+    position: relative;
+    left: 540px;
+    bottom: 380px;
+    text-align: center;
+}
+
+
+.heri{
+    z-index: 10;
+    width: 440px;
+    height: 440px;
+    margin-top: 280px;
+    
+}
+
+#hert{
+    color: white;
+    font-size: 30px;
+    z-index: 12;
+    width: 720px;
+    position: relative;
+    left: 540px;
+    bottom: 380px;
+    text-align: center;
+}
+
+
+.datai{
+    z-index: 10;
+    width: 440px;
+    height: 440px;
+    margin-top: 280px;
+    
+}
+
+#datt{
+    color: white;
+    font-size: 30px;
+    z-index: 12;
+    width: 720px;
+    position: relative;
+    left: 540px;
+    bottom: 380px;
+    text-align: center;
+}
+
+
+.fami{
+    z-index: 10;
+    width: 440px;
+    height: 440px;
+    margin-top: 280px;
+    
+}
+
+#famt{
+    color: white;
+    font-size: 30px;
+    z-index: 12;
+    width: 720px;
+    position: relative;
+    left: 540px;
+    bottom: 380px;
+    text-align: center;
+}
+
+
+.beli{
+    z-index: 10;
+    width: 440px;
+    height: 440px;
+    margin-top: 280px;
+    
+}
+
+#belt{
+    color: white;
+    font-size: 30px;
+    z-index: 12;
+    width: 720px;
+    position: relative;
+    left: 540px;
+    bottom: 380px;
+    text-align: center;
+}
+
+
+.bogi{
+    z-index: 10;
+    width: 440px;
+    height: 440px;
+    margin-top: 280px;
+    
+}
+
+#bogt{
+    color: white;
+    font-size: 30px;
+    z-index: 12;
+    width: 720px;
+    position: relative;
+    left: 540px;
+    bottom: 380px;
+    text-align: center;
+}
+
+
+.enci{
+    z-index: 10;
+    width: 490px;
+    height: 440px;
+    margin-top: 280px;
+    
+}
+
+#enct{
+    color: white;
+    font-size: 30px;
+    z-index: 12;
+    width: 720px;
+    position: relative;
+    left: 540px;
+    bottom: 380px;
+    text-align: center;
+}
+
+
+#ind{
+    color: white;
+    font-size: 30px;
+    z-index: 12;
+    width: 720px;
+    position: relative;
+    left: 540px;
+    bottom: 380px;
+    text-align: center;
+}
+
+@keyframes flutuando{
+
+0%{
+    top: 30px;
+}
+
+50%{
+    top: 10px;
+}
+
+100%{
+    top: 30px;
+}
+
+}
+
+
+@keyframes flutuando2{
+
+0%{
+    top: 30px;
+}
+
+50%{
+    top: 10px;
+}
+
+100%{
+    top: 30px;
+}
+
+}
