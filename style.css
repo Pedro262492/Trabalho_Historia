@@ -517,7 +517,7 @@ color: white;
 @media(max-width:768px){
 .sombra-foto1{
     position: relative;
-    left: 344px;
+    left: 384px;
 }
 
     .foto-tela{
@@ -556,14 +556,14 @@ color: white;
 .menufechai{
     position: relative;
     left: 30px;
-    opacity: 100%;
+    opacity: 0%;
     top: 40px;
 
 }
 .menufecha{
     position: relative;
     left: 30px;
-    opacity: 100%;
+    opacity: 0%;
     top: 40px;
 
 }
@@ -580,25 +580,25 @@ color: white;
 #text1{
    
     width: 50px;
-    left: 620px;
+    left: 640px;
 }
 
 #subtext1{
   
     width: 300px;
-    left: 580px;
+    left: 600px;
 }
 
 #viva{
     position: relative;
-    left: 180px;
+    left: 230px;
     bottom: 770px;
     opacity: 100%;
 }
 
 #melhor{
     position: relative;
-    left: 140px;
+    left: 160px;
     bottom: 600px;
     opacity: 100%;
     text-align: center;
@@ -628,7 +628,7 @@ left: -120px;
 
     .acesse1{
         position: relative;
-        left: 325px;
+        left: 345px;
     }
 
     .acesse2{
