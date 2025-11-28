@@ -1,0 +1,379 @@
+body{
+  background: blue;
+height: 100%;
+width: 100%;
+
+
+}
+
+.conteudo-12{
+       position: relative;
+    right: 8px;
+    bottom: 10px;
+    background-color: rgb(37, 0, 0);
+    color: rgb(63, 0, 0);
+    width: 110%;
+    height: 550px;
+    z-index: 3;
+}
+
+.conteudo-22{
+     position: relative;
+right: 10px;
+    bottom: 10px;
+    background-color: rgb(49, 7, 7);
+    color: rgb(63, 0, 0);
+    width: 110%;
+    height: 295px;
+    z-index: 3;
+}
+
+.peças1{
+    position: relative;
+   left: 180px;
+   
+}
+
+#farol{
+    position: relative;
+    width: 10%;
+    height: 10%;
+    padding-left: 300px;
+    padding-right: 80px;
+    bottom: 200px;
+    left: 120px;
+}
+
+#fio{
+    position: relative;
+    width: 10%;
+    height: 10%;
+      padding-left: 80px;
+    padding-right: 80px;
+    bottom: 400px;
+    left: 760px;
+}
+
+#motor{
+    position: relative;
+    width: 10%;
+    height: 10%;
+      padding-left: 80px;
+    padding-right: 80px;
+    top: 40px;
+    right: 80px;
+}
+
+#car{
+    position: relative;
+    width: 10%;
+    height: 10%;
+      padding-left: 80px;
+    padding-right: 80px;
+    bottom: 400px;
+    left: 760px;
+}
+
+#bom{
+    position: relative;
+    width: 10%;
+    height: 10%;
+      padding-left: 80px;
+    padding-right: 80px;
+    top: 40px;
+    right: 80px;
+}
+
+.peças2{
+    position: relative;
+   left: 130px;
+   
+}
+
+#carenagem{
+    position: relative;
+   width: 10%;
+    height: 30%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#banco{
+    position: relative;
+   width: 15%;
+    height: 40%;
+    bottom: 90px;
+      padding-left: 80px;
+    padding-right: 80px;
+}
+
+#roda{
+    position: relative;
+    width: 15%;
+    height: 45%;
+      padding-left: 80px;
+    padding-right: 80px;
+}
+
+.menubarra{
+    position: absolute;
+    z-index: 99999999999999999999999999999;
+    width: 0px;
+    height: 610px;
+    background: rgb(255, 255, 255);
+    top: 17px;
+    left: 0px;
+    opacity: 0%;
+    text-align: center;
+transition: 2s;
+font-family: Arial, Helvetica, sans-serif;
+color: red;
+}
+
+#zap{
+    position: relative;
+    height: 10%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+
+}
+
+#insta{
+    position: relative;
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+
+}
+
+#peças{
+    position: relative;
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+
+}
+
+#serviços{
+    position: relative;
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+
+}
+
+#anuncio{
+    position: relative;
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+
+}
+
+#story{
+    position: relative;
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+
+}
+
+
+.menubarraaberto{
+    position: absolute;
+    z-index: 999;
+    width: 200px;
+    height: 610px;
+    background: rgb(255, 255, 255);
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+transition: 2s;
+font-family: Arial, Helvetica, sans-serif;
+color: red;
+    opacity: 100%;
+}
+
+
+.barra{
+    position: relative;
+    z-index: 5099999999999999999999999999999;
+    right: 50px;
+    bottom: 8px;
+    width: 120%;
+   height: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.conteudo{
+    position: relative;
+    left: 660px;
+    width: 100%;
+    bottom: 70px;
+    
+    
+}
+
+
+.menu{
+    position: relative; 
+    z-index: 999999999999999999999999;
+    right: 590px;
+    cursor: pointer;
+    top: 80px;
+    background: white;
+}
+
+.menui{
+    position: relative; 
+    z-index: 1;
+    right: 590px;
+    cursor: pointer;
+    top: 80px;
+    background: white;
+}
+
+.menufecha{
+    position: relative;
+    z-index:9999999999999999999999999999999;
+    background: rgb(17, 0, 255);
+    opacity: 0%;
+    width: 30px;
+    height: 30px;
+    top: 52px;
+    cursor: pointer;
+    right: 590px;
+    
+}
+
+.menufechai{
+    position: relative;
+    z-index:99;
+    background: rgb(30, 255, 0);
+    opacity: 0%;
+    width: 30px;
+    height: 30px;
+    top: 52px;
+    cursor: pointer;
+    right: 590px;
+    
+}
+
+.logo{
+    position: relative; 
+    z-index: 38;
+    left: 650px;
+    top: 18px;
+    width: 40px;
+    height: 30px;
+
+}
+
+#motortext{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 9999999;
+    font-size: 20px;
+    top: 65px;
+    right: 50px;
+}
+
+#fiotext{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 9999999;
+    font-size: 20px;
+    bottom: 400px;
+    left: 800px;
+}
+
+#faroltext{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 9999999;
+    font-size: 20px;
+    bottom: 185px;
+     left: 380px;
+}
+
+#carenagemtext{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 9999999;
+    font-size: 20px;
+    top: 0px;
+    right: 10px;
+}
+
+#bancotext{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 9999999;
+    font-size: 20px;
+    bottom: 41px;
+    left: 450px;
+}
+
+#rodastext{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 9999999;
+    font-size: 20px;
+    bottom: 83px;
+     left: 760px;
+}
+
+#bomtext{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 9999999;
+    font-size: 20px;
+    bottom: 41px;
+    left: 450px;
+}
+
+#cartext{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 9999999;
+    font-size: 20px;
+    bottom: 83px;
+     left: 760px;
+}

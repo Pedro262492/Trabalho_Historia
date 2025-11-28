@@ -1,295 +1,673 @@
 body{
-   background: linear-gradient(to top right,black, black, black,black, rgb(20, 0, 0), red, blue, yellow);
-height: 100vh;
+   background: linear-gradient(to top , rgb(18, 0, 0),
+    rgb(18, 0, 0));
+height: 100%;
+width: 100%;
 overflow-x: hidden;
   background-attachment: fixed;
 }
 
-#nome{
-    z-index: 10;
-    position: relative;
-    bottom: 830px;
-    left: 50px;
-cursor: pointer;
-    width: 40px;
-    font-size: 120px;
-    color: rgb(255, 255, 255);
-    font-family:'Times New Roman', Times, serif;
-    animation-name: flutuando;
-    animation-duration: 5s;
-animation-iteration-count: infinite;
+.visivel{
+    display: block;
+}
+
+.invisivel{
+    display: none;
+}
+
+
+.menubarra{
+    position: fixed;
+    z-index: 0;
+    width: 0px;
+    height: 610px;
+    background: rgb(255, 255, 255);
+    bottom: 0px;
+    left: 0px;
+    opacity: 20%;
 transition: 2s;
 }
 
-
-
-
-h2{
-    z-index: 20;
-    color: white;
+#zap{
     position: relative;
-    left: 800px;
-    bottom: 410px;
-    font-size: 30px;
+    height: 10%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+
 }
 
-#nome:hover{
-    color: yellow;
+#insta{
+    position: relative;
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+
 }
 
-#subti{
-    z-index: 11;
+#peças{
     position: relative;
-    top: 170px;
-    left: 160px;
-cursor: pointer;
-    font-weight: 600;
-    font-size: 35px;
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+
+}
+
+#serviços{
+    position: relative;
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+
+}
+
+#anuncio{
+    position: relative;
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+
+}
+
+#story{
+    position: relative;
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+
+}
+
+h4{
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(148, 86, 86);
+}
+
+.menubarraaberto{
+    position: fixed;
+    z-index: 999;
+    width: 200px;
+    height: 610px;
+    background: rgb(255, 255, 255);
+    bottom: 0px;
+    left: 0px;
+transition: 2s;
+    opacity: 100%;
+}
+
+
+.ti{
+    position: relative;
+    right: 50px;
+    width: 120%;
+   height: 680px;
+   bottom: 10px;
+    background: linear-gradient(to top , rgb(0, 0, 0),
+    rgb(194, 194, 194));
+}
+
+#viva{
+    position: relative;
+    z-index: 32;
+    color: rgb(97, 0, 0);
+    font-size: 150px;
+    left: 60px;
+    bottom: 550px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 12px;
+
+}
+
+#melhor{
+    position: relative;
+    z-index: 38;
+    color: rgb(255, 199, 199);
+    font-size: 60px;
+    left: 60px;
+    bottom: 650px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 5px;
+ 
+}
+
+.foto-tela{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 28;
+    
+}
+.foto2-tela{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    bottom: 690px;
+    z-index: 37;
+    
+}
+
+
+
+.barra{
+    position: fixed;
+    z-index: 50;
+    left: -4%;
+    bottom: 94%;
+    width: 120%;
+   height: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.conteudo{
+    position: relative;
+    left: 660px;
+    width: 100%;
+    bottom: 70px;
+    
+    
+}
+
+
+.menu{
+    position: relative; 
+    z-index: 999999999999999999999999;
+    right: 590px;
+    cursor: pointer;
+    top: 80px;
+    background: white;
+}
+
+.menui{
+    position: relative; 
+    z-index: 1;
+    right: 590px;
+    cursor: pointer;
+    top: 80px;
+    background: white;
+}
+
+.menufecha{
+    position: relative;
+    z-index:9999999999999999999999999999999;
+    background: rgb(17, 0, 255);
+    opacity: 0%;
+    width: 30px;
+    height: 30px;
+    top: 52px;
+    cursor: pointer;
+    right: 590px;
+    
+}
+
+.menufechai{
+    position: relative;
+    z-index:99;
+    background: rgb(30, 255, 0);
+    opacity: 0%;
+    width: 30px;
+    height: 30px;
+    top: 52px;
+    cursor: pointer;
+    right: 590px;
+    
+}
+
+.logo{
+    position: relative; 
+    z-index: 38;
+    left: 650px;
+    top: 18px;
+    width: 40px;
+    height: 30px;
+
+
+}
+
+#navcon{
+    position: relative;
+    right: 200px;
+    text-decoration: none;
+     color: rgb(55, 0, 0);
+
+}
+
+#navpro{
+    position: relative;
+    right: 100px;
+     text-decoration: none;
+      color: rgb(55, 0, 0);
+}
+
+#navmim{
+    position: relative;
+ 
+ color: rgb(55, 0, 0);    
+  text-decoration: none;
+}
+
+#navme{
+    position: relative;
+    left: 100px;
+    color: rgb(55, 0, 0);
+     text-decoration: none;
+}
+
+
+.conteudo-1{
+    position: relative;
+    right: 8px;
+    bottom: 49px;
+    background-color: rgb(37, 0, 0);
+    color: rgb(63, 0, 0);
+    width: 110%;
+    height: 850px;
+    z-index: 3;
+}
+
+
+
+ 
+
+
+.conteudo-2{
+    position: relative;
+    right: 8px;
+    bottom: 47px;
+    background-color: rgb(49, 7, 7);
     color: rgb(255, 255, 255);
-    font-family:'Times New Roman', Times, serif;
-    animation-name: flutuando;
-    animation-duration: 5s;
-animation-iteration-count: infinite;
-
+    width: 110%;
+    height: 500px;
+    z-index: 8;
 }
 
-.trajei{
-    z-index: 10;
-    width: 440px;
-    height: 440px;
-    margin-top: 280px;
-    
-}
-
-#trajet{
-    color: white;
-    font-size: 30px;
-    z-index: 12;
-    width: 720px;
+.conteudo-3{
     position: relative;
-    left: 550px;
-    bottom: 380px;
+    right: 8px;
+    bottom: 47px;
+    background-color: rgb(37, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 110%;
+    height: 500px;
+    z-index: 9;
+}
+
+
+.peças{
+    position: relative;
+    width: 45%;
+    height: 47%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.serviço{
+    position: relative;
+    width: 45%;
+    height: 47%;
+    margin-bottom: 0px;
+        margin-top: 0px;
+        top: 450px;
+left: 22px;
+}
+
+.sombra-foto1{
+    position: relative;
+    width: 45%;
+    height: 47%;
+    margin-bottom: 0px;
+        margin-top: 0px;
+        bottom: 0px;
+left: 690px;
+background: linear-gradient(to bottom, transparent, rgb(0, 0, 0));
+opacity: 70%;
+z-index: 39;
+}
+
+.sombra-foto2{
+    position: relative;
+    width: 45%;
+    height: 47%;
+    margin-bottom: 0px;
+        margin-top: 0px;
+bottom: 1200px;
+background: linear-gradient(to bottom, transparent, rgb(0, 0, 0));
+opacity: 70%;
+z-index: 99999;
+}
+
+#text2{
+    position: relative;
+    z-index: 9099999;
+    color: white;
+text-align: center;
+font-size: 30px;
+top: 700px;
+left: 160px;
+font-family:arial Arial, Helvetica, sans-serif;
+}
+
+#subtext2{
+    position: relative;
+    z-index: 9999999999;
+    color: white;
+text-align: center;
+font-size: 20px;
+top: 680px;
+left: 170px;
+font-family:arial Arial, Helvetica, sans-serif;
+}
+
+.acesse2{
+    position: relative;
+    z-index: 999999999999999;
+    left: 490px;
+    top: 300px;
+    width: 120px;
+    height: 20px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+
+.acesse1{
+    position: relative;
+    z-index: 9999999999999999;
+    left: 740px;
+    bottom: 170px;
+    width: 120px;
+    height: 20px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+#textbutton1{
+    position: relative;
+    cursor: pointer;
+}
+
+#textbutton2{
+    position: relative;
+    cursor: pointer;
+}
+
+#text1{
+    position: relative;
+    z-index: 999;
+    color: white;
+text-align: center;
+font-size: 40px;
+bottom: 170px;
+left: 362px;
+font-family:arial Arial, Helvetica, sans-serif;
+}
+
+#subtext1{
+    position: relative;
+    z-index: 9999;
+    color: white;
+text-align: center;
+font-size: 20px;
+bottom: 200px;
+left: 405px;
+font-family:arial Arial, Helvetica, sans-serif;
+}
+
+.text11{
+    position: relative;
+    bottom: 580px;
+    right: 300px;
+    z-index: 99999;
+}
+
+.fotoc3{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    z-index: 1;
+}
+
+.fotoc3shadow{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(to bottom, transparent, rgb(0, 0, 0));
+opacity: 90%;
+z-index: 999999999;
+bottom: 105%;
+color: white;
+}
+
+#textc3{
+    position: relative;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 59%;
+    left: 110%;
+    width: 60%;
+}
+
+#texttc3{
+    position: relative;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 0%;
+    left: 110%;
+    width: 60%;
+   line-height: 1.3em;
+}
+
+.acesse3{
+    position: relative;
+    background: red;
+    color: white;
+    width: 150px;
+    height: 50px;
+    z-index: 9999999999999999999999999;
+    left: 110%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    top: 60%;
+    cursor: pointer;
+}
+
+#acesse3t{
+    position: relative;
+    top: 25%;
+    cursor: pointer;
+}
+
+@media(max-width:768px){
+.sombra-foto1{
+    position: relative;
+    left: 344px;
+}
+
+    .foto-tela{
+        position: relative;
+        width: 157%;
+    }
+
+    .conteudo-1{
+        position: relative;
+        width: 178%;
+    }
+
+     .conteudo-2{
+        position: relative;
+        width: 178%;
+    }
+
+     .conteudo-3{
+        position: relative;
+        width: 178%;
+    }
+{
+    outline: auto red;
+}
+.conteudo{
+    position: relative;
+    left: 30px;
+    bottom: 60px;
+}
+.menu{
+    position: relative;
+    left: 30px;
+    top: 70px;
+}
+
+.menufechai{
+    position: relative;
+    left: 30px;
+    opacity: 100%;
+    top: 40px;
+
+}
+.menufecha{
+    position: relative;
+    left: 30px;
+    opacity: 100%;
+    top: 40px;
+
+}
+
+.menubarraaberto{
+    position: fixed;
+    bottom: 0%;
+    font-size: 30px;
+     height: 97%;
+
+    z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}
+
+#text1{
+   
+    width: 50px;
+    left: 620px;
+}
+
+#subtext1{
+  
+    width: 300px;
+    left: 580px;
+}
+
+#viva{
+    position: relative;
+    left: 180px;
+    bottom: 770px;
+    opacity: 100%;
+}
+
+#melhor{
+    position: relative;
+    left: 140px;
+    bottom: 600px;
+    opacity: 100%;
     text-align: center;
 }
 
-.bandi{
-    z-index: 14;
-    width: 500px;
-    height: 440px;
-    margin-top: 150px;
-    
+.menubarra{
+    position: fixed;
+        font-size: 30px;
+left: -120px;
+
+    bottom: 0%;
+    height: 97%;
+    z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
 }
 
-#bandt{
-    color: white;
-    font-size: 30px;
-    z-index: 13;
-    width: 720px;
+
+.logo{
     position: relative;
-    left: 550px;
-    bottom: 380px;
-    text-align: center;
-}
-
-.comi{
-    z-index: 10;
-    width: 440px;
-    height: 440px;
-    margin-top: 280px;
-    
-}
-
-#comit{
-    color: white;
-    font-size: 30px;
-    z-index: 12;
-    width: 720px;
-    position: relative;
-    left: 550px;
-    bottom: 380px;
-    text-align: center;
-}
-
-.mapi{
-    z-index: 10;
-    width: 440px;
-    height: 440px;
-    margin-top: 280px;
-    
-}
-
-#mapt{
-    color: white;
-    font-size: 30px;
-    z-index: 12;
-    width: 720px;
-    position: relative;
-    left: 540px;
-    bottom: 380px;
-    text-align: center;
-}
-
-
-.heri{
-    z-index: 10;
-    width: 440px;
-    height: 440px;
-    margin-top: 280px;
-    
-}
-
-#hert{
-    color: white;
-    font-size: 30px;
-    z-index: 12;
-    width: 720px;
-    position: relative;
-    left: 540px;
-    bottom: 380px;
-    text-align: center;
-}
-
-
-.datai{
-    z-index: 10;
-    width: 440px;
-    height: 440px;
-    margin-top: 280px;
-    
-}
-
-#datt{
-    color: white;
-    font-size: 30px;
-    z-index: 12;
-    width: 720px;
-    position: relative;
-    left: 540px;
-    bottom: 380px;
-    text-align: center;
-}
-
-
-.fami{
-    z-index: 10;
-    width: 440px;
-    height: 440px;
-    margin-top: 280px;
-    
-}
-
-#famt{
-    color: white;
-    font-size: 30px;
-    z-index: 12;
-    width: 720px;
-    position: relative;
-    left: 540px;
-    bottom: 380px;
-    text-align: center;
-}
-
-
-.beli{
-    z-index: 10;
-    width: 440px;
-    height: 440px;
-    margin-top: 280px;
-    
-}
-
-#belt{
-    color: white;
-    font-size: 30px;
-    z-index: 12;
-    width: 720px;
-    position: relative;
-    left: 540px;
-    bottom: 380px;
-    text-align: center;
-}
-
-
-.bogi{
-    z-index: 10;
-    width: 440px;
-    height: 440px;
-    margin-top: 280px;
-    
-}
-
-#bogt{
-    color: white;
-    font-size: 30px;
-    z-index: 12;
-    width: 720px;
-    position: relative;
-    left: 540px;
-    bottom: 380px;
-    text-align: center;
-}
-
-
-.enci{
-    z-index: 10;
-    width: 490px;
-    height: 440px;
-    margin-top: 280px;
-    
-}
-
-#enct{
-    color: white;
-    font-size: 30px;
-    z-index: 12;
-    width: 720px;
-    position: relative;
-    left: 540px;
-    bottom: 380px;
-    text-align: center;
-}
-
-
-#ind{
-    color: white;
-    font-size: 30px;
-    z-index: 12;
-    width: 720px;
-    position: relative;
-    left: 540px;
-    bottom: 380px;
-    text-align: center;
-}
-
-@keyframes flutuando{
-
-0%{
-    top: 30px;
-}
-
-50%{
     top: 10px;
+    left: 590px;
+}
+    .barra{
+        position: fixed;
+        bottom: 97%;
+        width: 104%;
+    }
+
+    .acesse1{
+        position: relative;
+        left: 325px;
+    }
+
+    .acesse2{
+        position: relative;
+        left: 160px;
+    }
+
+    #text2{
+        position: relative;
+        left: 50px;
+    }
+
+    #subtext2{
+        position: relative;
+        left: 60px;
+    }
+
+    .serviço{
+        position: relative;
+        left: 57px;
+    }
+
+    #texttc3{
+position: relative;
+bottom: 200px;
+font-size: 43px;
+    }
+
+        #textc3{
+position: relative;
+top: 270px;
+font-size: 20px;
+    }
+
+.acesse3{
+    position: relative;
+    top: 280px;
 }
 
-100%{
-    top: 30px;
-}
 
-}
-
-
-@keyframes flutuando2{
-
-0%{
-    top: 30px;
-}
-
-50%{
-    top: 10px;
-}
-
-100%{
-    top: 30px;
-}
 
 }
