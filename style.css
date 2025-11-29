@@ -109,7 +109,7 @@ h4{
     position: relative;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(148, 86, 86);
+    color: red
 }
 
 .menubarraaberto{
@@ -118,6 +118,7 @@ h4{
     width: 200px;
     height: 610px;
     background: rgb(255, 255, 255);
+    color: red;
     bottom: 0px;
     left: 0px;
 transition: 2s;
