@@ -124,6 +124,10 @@ transition: 2s;
     opacity: 100%;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 .ti{
     position: relative;
