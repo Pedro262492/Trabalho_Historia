@@ -513,6 +513,14 @@ color: white;
     cursor: pointer;
 }
 
+#abutton{
+    color: white;
+}
+
+#abutton2{
+    color: white;
+}
+
 #acesse3t{
     position: relative;
     top: 25%;
@@ -547,6 +555,15 @@ color: white;
 {
     outline: auto red;
 }
+
+#abutton{
+    color: white;
+}
+
+#abutton2{
+    color: white;
+}
+
 .conteudo{
     position: relative;
     left: 30px;
